@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi primer html</title>
+</head>
+<body>
+    <h1> Hola, Mundo jajaaj me gusta papoi</h1>
+    <p> ola me llamo daniel moreno<br> estudio macc y analisis de datos y mercados. Temgo hambre</p><br>
+    <img src = "../imagenes/pereira prueba.png" alt = "ostia que es esto">
+    <img src = "../imagenes/mas gramde.jpg" alt = "xxdddddddd">
+    <div id="contenedor"></div>
+
+ <!-- colocar imagen varias veces -->
+<script>
+  const contenedor = document.getElementById("contenedor");
+
+  for (let i = 0; i < 10; i++) {
+    const img = document.createElement("img");
+    img.src = "../imagenes/pereira prueba.png";
+    img.alt = "Imagen repetida";
+    contenedor.appendChild(img);
+  }
+</script>
+
+</body>
+</html>
