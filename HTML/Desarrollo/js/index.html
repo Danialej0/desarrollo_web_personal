@@ -24,5 +24,46 @@
   }
 </script>
 
+  <!-- Formularios-->
+
+  <form name="formulario" action="" method="post" autocomplete="off" target="_blank"> <!-- Post: no muestra datos. 
+    Siempre usar para primeros registro-->
+    <label for="Nombre ">Nombre: </label> 
+    <input type="text" id="Nombre" name ="nombre" required><br><br>
+    
+    <label for="correo">Correo</label>
+    <input type="email" id="correo" name="correo" required placeholder="yupiTayson@yahoo.com"> <br><br>
+
+
+    <label for="clave">Clave: </label>
+    <input type="password" id="clave" name="clave" required> <br><br>
+
+    <label for="genero">ingrese su genero: </label><br><br>
+    <label for="masculino">Masculino </label>
+    <input type="radio" id="masculino" name="genero" value="Masculino">
+    <label for="femenino">Femenino </label>
+    <input type="radio" id="femenino" name="genero" value="femenino"><br><br> 
+
+    <label for="intereses">intereses: </label> <br>
+    <label for="voley">Voley</label>
+    <input type="checkbox" id="voley" name="intereses"><br>
+    <label for="musica">Musica</label>
+    <input type="checkbox" id="musica" name="intereses"><br><br>
+
+    <label for="viajes">A donde desea viajar?</label>
+    <select id="Pais" name="viajes" >
+      <option value="0"> Thailandia</option>
+      <option value="1"> Laos</option>
+      <option value="2"> Vietnam</option>
+    </select>
+
+    <br><br>
+    
+    <input type="datetime-local" id="prueb" name="prueba"> <br><br>
+    <input type="submit Form" id="enviar" name="enviar">
+
+
+  </form>
+
 </body>
 </html>
