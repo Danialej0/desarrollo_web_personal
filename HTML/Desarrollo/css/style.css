@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d2b8b8;
+}
+
+h1{
+    background-color: #8f6a6a;
+    font-family: "crafty girls", serif;
+    color: #fff;
+}
+
