@@ -6,6 +6,12 @@
 
 body{
     min-height: 100vh;
+    padding: 52px 5.3%;
+    background-color: #fff;
+}
+
+main{
+    min-height: calc(100vh - 104px);
     border: 8px dashed #efff35;
     padding: 68px 38px 72px;
     background-color: #369f89;
@@ -36,6 +42,38 @@ img{
 p{
     margin-bottom: 22px;
 }
+
+span{
+    font-family: Georgia, "Times New Roman", serif;
+    color   : #efff35;
+    font-size: 23px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h2{
+    text-align: center;
+}
+
+ul{
+    list-style-image: url("../imagenes/flor.png");
+    margin: 10px 0;
+}
+
+a{
+    color: #efff35;
+    text-decoration: italic, underline;
+}
+
+h3{
+    text-align: center;
+}
+
+img{
+    align-items: center;
+}
+
+
 
 
 

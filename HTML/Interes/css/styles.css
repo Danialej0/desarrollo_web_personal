@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d2b8b8;
+    font-family: "Forum", cursive;
+    font-size: 14.5pt;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.5;
+    padding: 20px;
+
+}
+
+.menu{
+    background-color: #958e8e;
+    font-family: "crafty girls", serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: #5e63ff;
+    background-color: #8f6a6a;
+    text-decoration: none;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th{
+    border: 1px dashed #000;
+    padding: 8px;
+    text-align: left;
+    
+}
+
+
+li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+h1{
+    background-color: #8f6a6a;
+    font-family: "crafty girls", serif;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
