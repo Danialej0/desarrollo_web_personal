@@ -1,7 +1,7 @@
 :root {
   --text: #5a02c7;
   --text-h: #2a529d;
-  --bg: #786d6d;
+  --bg: #f8f4f4;
   --border: #e5e4e7;
   --code-bg: #f4f3ec;
   --accent: #aa3bff;
@@ -51,11 +51,8 @@
 }
 
 #root {
-  width: 1126px;
-  max-width: 100%;
-  margin: 0 auto;
+  width: 100%;
   text-align: center;
-  border-inline: 1px solid var(--border);
   min-height: 100svh;
   display: flex;
   flex-direction: column;
